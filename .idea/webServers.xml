@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e27ce56b-577c-472c-9f26-c1fbf27fa450" name="vilinevode" url="http://192.168.200.221">
+        <fileTransfer host="192.168.200.221" port="8510" rootFolder="/storage/www/html/vilinevode.local.bildhosting.me" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="8510" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

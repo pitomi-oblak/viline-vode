@@ -1,0 +1,151 @@
+.body-wrapper {
+  width: 100%;
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.logo {
+  margin-bottom: 50px;
+  margin-top: 20px; }
+  .logo img {
+    width: 30%;
+    height: auto; }
+
+#loading {
+  color: #c0a16b;
+  padding: 8px;
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+#contact-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 70px; }
+
+.left-side form {
+  max-width: 100%; }
+  .left-side form #input-name, .left-side form #input-email {
+    display: inline-block; }
+  .left-side form #input-name {
+    width: 39%; }
+  .left-side form #input-email {
+    width: 60%; }
+  .left-side form #input-submit {
+    color: white;
+    background-color: #d44032;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+    .left-side form #input-submit:hover {
+      background-color: #c0a16b; }
+  .left-side form input, .left-side form textarea {
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 6px;
+    font-family: 'Merriweather', sans-serif;
+    background-color: #f3f3f3;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .left-side form textarea {
+    height: 120px;
+    width: 100%;
+    display: block; }
+  .left-side form .error {
+    color: #f24b4b;
+    float: left; }
+  .left-side form .success {
+    color: #3bd690; }
+  .left-side form .error, .left-side form .success {
+    font-size: small; }
+
+.right-side {
+  text-align: center;
+  margin-right: -30px; }
+  .right-side .wrapper-info {
+    word-break: break-all;
+    position: relative;
+    line-height: 44px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 15px; }
+  .right-side i {
+    font-size: 24px;
+    margin-right: 12px; }
+  .right-side span {
+    font-size: 24px; }
+
+.left-side, .right-side {
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  background-color: rgba(0, 0, 0, 0.4); }
+  .left-side h3.title, .right-side h3.title {
+    width: 100%;
+    display: block;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    float: left;
+    margin-bottom: 20px; }
+  .left-side i, .left-side span, .right-side i, .right-side span {
+    color: #fff; }
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    margin-top: 10px; }
+    .logo img {
+      width: 80%; }
+  .left-side form #input-name, .left-side form #input-email {
+    width: 100%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 1245px) {
+  .left-side form #input-name {
+    width: 38%; } }
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .logo img {
+    width: 50%; } }
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin-top: 10px; }
+  #contact-row {
+    display: block;
+    margin: 0 5px 40px 5px; }
+  .right-side {
+    margin-bottom: 15px;
+    margin-right: 0; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .logo img {
+    width: 40%; }
+  .left-side #input-name, .left-side #input-email {
+    width: 100%; }
+  .right-side i {
+    font-size: 20px;
+    margin-right: 10px; }
+  .right-side span {
+    font-size: 20px; }
+  .left-side h3.title, .right-side h3.title {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 992px) {
+  .right-side i {
+    font-size: 20px;
+    margin-right: 10px; }
+  .right-side span {
+    font-size: 20px; }
+  .left-side h3.title, .right-side h3.title {
+    font-size: 30px; } }
